@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="SimpleTabs" package="com.sample.simpletabs" version="1.0.0" company="Company Name" />
+	<app main="Main" path="Export" file="SimpleTabs" />
+	
+	<source path="Source" />
+	
+	<haxelib name="openfl" />
+	
+	<assets path="Assets" rename="assets" />
+	
+</project>
