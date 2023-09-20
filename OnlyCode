@@ -17,7 +17,6 @@ class Main extends Sprite {
 		var tab2Button = new SimpleButton();
 		var tab3Button = new SimpleButton();
 
-		// Initialize buttons
 		initButton(tab1Button, "Tab 1", 50, 20);
 		initButton(tab2Button, "Tab 2", 150, 20);
 		initButton(tab3Button, "Tab 3", 250, 20);
@@ -26,7 +25,7 @@ class Main extends Sprite {
 		textField.x = 50;
 		textField.y = 100;
 		textField.width = 300;
-		textField.height = 2000; // Max height
+		textField.height = 2000; 
 		textField.wordWrap = true;
 		textField.multiline = true;
 
